@@ -1,27 +1,26 @@
 # ProjetoBuzzfeed
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+(This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.)
+Projeto desenvolvido para o bootcamp da NTT DATA em parceria com a Dio e mentoria de Felipe Aguiar.
 
-## Development server
+## Criando a estrutura base
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Usando o ng, criei os componentes "página home" e "quizz". 
 
-## Code scaffolding
+## Estilização do Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Vimos na aula como criar o HTML e o CSS do projeto, deixando o projeto com uma cara mais amigável.
 
-## Build
+## Criando as propriedades lógicas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Criamos a lógica do jogo no componente "quizz", assim como utilizamos diretivas para renderizar páginas e percorrer arrays.
 
-## Running unit tests
+## Regras do jogo e cálculo do resultado
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+A parte mais complicada foi reproduzir a estatística das respostas, para renderizar a de maior ocorrência.
 
-## Running end-to-end tests
+## O que eu achei do projeto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+O projeto, apesar de desafiador, foi divertido de fazer, pois o Felipe Aguiar nos acompanha do início ao fim do projeto, nos dando mais segurança para concluí-lo.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Screenshot](buzzfeed.png)
